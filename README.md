@@ -24,7 +24,10 @@ Pasos a Seguir
 Esta guia esta hecha para aquellas personas que tienen conocimiento previo de OpenCore y como realizar una USB
 Remplace la carpeta EFI en su Unidad USB, no deberia tener problemas de instalacion, lo unico importante es quitar cambiar ciertos parametros de la Bios, que basicamente son los mismos en casi todas las laptops
 Te dejo este video de Youtube donde alguien enseña la configuracion de la Bios, el video empieza exactamente donde empieza a modificar.
+
+
 https://youtu.be/TnnrpA0Q0_4?si=EYmbBrZWVP2BKMSX&t=407
+
 Una vez procedes con la instalacion es muy posible que arroje alguna clase de error en la instalacion donde tiene un problema para actulizar el sistema, pero no te preocupes solo acepta todo reinicia y continua la instalacion, seguira de forma correcta, muy probablemente no te pasara, pero si lo hace no te asustes.
 
 Una vez se a instalado correctamente es importante que tengas en cuenta lo siguiente, el archivo SSDT esta configurado exactamente para el procesador mencionado, si tienes otro, es importante generar este archivo, en mi experiencia cuando tienes el correcto es mucho mas fluido el sistema.
