@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildMachineOSBuild</key>
+	<string>23H301</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>VoodooSDHC</string>
+	<key>CFBundleIconFile</key>
+	<string>me.jpg</string>
+	<key>CFBundleIdentifier</key>
+	<string>VoodooSDHC</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>VoodooSDHC</string>
+	<key>CFBundlePackageType</key>
+	<string>KEXT</string>
+	<key>CFBundleSignature</key>
+	<string>Voodoo</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>MacOSX</string>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>1.1d1</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTPlatformBuild</key>
+	<string></string>
+	<key>DTPlatformName</key>
+	<string>macosx</string>
+	<key>DTPlatformVersion</key>
+	<string>14.5</string>
+	<key>DTSDKBuild</key>
+	<string>23F73</string>
+	<key>DTSDKName</key>
+	<string>macosx14.5</string>
+	<key>DTXcode</key>
+	<string>1540</string>
+	<key>DTXcodeBuild</key>
+	<string>15F31d</string>
+	<key>IOKitPersonalities</key>
+	<dict>
+		<key>SD Card Host Controller</key>
+		<dict>
+			<key>IOClass</key>
+			<string>VoodooSDHC</string>
+			<key>IOPCIMatch</key>
+			<string>0x08221180 0x08231180 0xe8231180</string>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+		</dict>
+	</dict>
+	<key>LSMinimumSystemVersion</key>
+	<string>14.5</string>
+	<key>OSBundleLibraries</key>
+	<dict>
+		<key>com.apple.iokit.IOPCIFamily</key>
+		<string>2.6</string>
+		<key>com.apple.iokit.IOStorageFamily</key>
+		<string>1.6</string>
+		<key>com.apple.kpi.iokit</key>
+		<string>8.0.0</string>
+		<key>com.apple.kpi.libkern</key>
+		<string>8.0.0</string>
+		<key>com.apple.kpi.mach</key>
+		<string>8.0.0</string>
+	</dict>
+</dict>
+</plist>
