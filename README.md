@@ -55,7 +55,12 @@ En ACPI/Delete, deshabilitar Delete CpuPmy Delete Cpu0Istnuevamente
 
 Guarde la configuración y reinicie.
 
-Y despues de esto viene algo muy importante tenemos que usar OPEN CORE PARCHER pero tenemos que usar un version modificada, esta nos ayudara a que el WiFi y Bluetooth funcionen correctamente si es que tienes la misma tarjeta de red o similar. La version modificada estara en este repositorio.
+Y despues de esto viene algo muy importante tenemos que usar OPEN CORE PARCHER pero tenemos que usar un version modificada, esta nos ayudara a que el WiFi y Bluetooth funcionen correctamente si es que tienes la misma tarjeta de red o similar. 
+
+Usa esta version
+
+ https://github.com/laobamac/OCLP-Mod/releases
+
 Ademas de eso intalara los Drivers de los grafico de Intel.
 
 Una vez temines con esto reinicia y listo.
