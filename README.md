@@ -36,6 +36,7 @@ Si no sabes generarlo porfavor sigue esta breve guia.
 Abrir terminal
 
 Introduzca el siguiente comando para descargar el script ssdtPRGen:
+
  curl -o ~/ssdtPRGen.sh https://raw.githubusercontent.com/Piker-Alpha/ssdtPRGen.sh/Beta/ssdtPRGen.sh
 
 Hazlo ejecutable:
@@ -45,9 +46,13 @@ Ejecute el script:
  sudo ~/ssdtPRGen.sh
 
 El generado SSDT.amlse ubicará en~/Library/ssdtPRGen
+
 Renombrarlo a SSDT-PM.aml(opcional, pero es una buena práctica)
+
 Cópielo EFI/OC/ACPIy enumérelo en la ACPI/Addsección de suconfig.plist
+
 En ACPI/Delete, deshabilitar Delete CpuPmy Delete Cpu0Istnuevamente
+
 Guarde la configuración y reinicie.
 
 Y despues de esto viene algo muy importante tenemos que usar OPEN CORE PARCHER pero tenemos que usar un version modificada, esta nos ayudara a que el WiFi y Bluetooth funcionen correctamente si es que tienes la misma tarjeta de red o similar. La version modificada estara en este repositorio.
@@ -62,5 +67,7 @@ aqui te ayuda a configurar, la cuestion es que necesitas tener una Bios modifica
 Me parece que la ventaja de hacer esto es que es compatible con Airplay y las demas funciones inalambricas.
 
 Asi que debes de saber que esta configuracion con intel no es capaz de hacerlo, pero funcionara correctamente el wifi y dispositivos Bluetooth.
+
+Esta carpeta EFI tiene modificaciones para que puedas usar un Disco duro externo en la antigua unidad de DVD, para esto necesitas comprar un adaptador, pero si te gusta algo sobre el Hackintosh creo que ya deberias saber sobre este adaptador.
 
 En general es estable y no deberias tener muchos problemas.
