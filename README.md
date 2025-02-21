@@ -31,6 +31,7 @@ Una vez se a instalado correctamente es importante que tengas en cuenta lo sigui
 Si no sabes generarlo porfavor sigue esta breve guia.
 
 Abrir terminal
+
 Introduzca el siguiente comando para descargar el script ssdtPRGen:
  curl -o ~/ssdtPRGen.sh https://raw.githubusercontent.com/Piker-Alpha/ssdtPRGen.sh/Beta/ssdtPRGen.sh
 Hazlo ejecutable:
