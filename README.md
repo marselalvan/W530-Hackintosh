@@ -34,10 +34,13 @@ Abrir terminal
 
 Introduzca el siguiente comando para descargar el script ssdtPRGen:
  curl -o ~/ssdtPRGen.sh https://raw.githubusercontent.com/Piker-Alpha/ssdtPRGen.sh/Beta/ssdtPRGen.sh
+
 Hazlo ejecutable:
  chmod +x ~/ssdtPRGen.sh
+
 Ejecute el script:
  sudo ~/ssdtPRGen.sh
+
 El generado SSDT.amlse ubicará en~/Library/ssdtPRGen
 Renombrarlo a SSDT-PM.aml(opcional, pero es una buena práctica)
 Cópielo EFI/OC/ACPIy enumérelo en la ACPI/Addsección de suconfig.plist
