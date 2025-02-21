@@ -7,20 +7,33 @@ WiFi y Bluetooth pero hay que hacer un paso extra post Instalacion para que func
 
 Componente	Detalles
 Modelo	Lenovo ThinkPad W530, modelo n.° 2429-62G
+
 Conjunto de chips	Intel QM77 Express
+
 Versión del BIOS	2.77, desbloqueado con 1vyRain
+
 Procesador	Intel(R) Core(TM) i7-3740QM CPU @ 2.70GHz
+
 Memoria	8 GB
+
 Mínimo: 8 GB
+
 Gráficos integrados	Gráficos Intel HD 4000, 2048 MB de RAM asignados
+
 Mostrar	Pantalla TFT HD+ de 15,6" (1600 x 900 píxeles)
+
 Audio	Realtek ALC269VC Rev.3 (ID de diseño: 39)
+
 Ethernet	Conexión de red Gigabit Intel 82579LM
+
 WiFi y Bluetooth	Centrino Ultimate-N 63000
+
 Lector de múltiples tarjetas	Lector 4 en 1 de Ricoh (MMC, SD, SDHC, SDXC)
+
 Ranura para ExpressCard/34	desactivado
 
 Pasos a Seguir
+
 Esta guia esta hecha para aquellas personas que tienen conocimiento previo de OpenCore y como realizar una USB
 Remplace la carpeta EFI en su Unidad USB, no deberia tener problemas de instalacion, lo unico importante es quitar cambiar ciertos parametros de la Bios, que basicamente son los mismos en casi todas las laptops
 Te dejo este video de Youtube donde alguien enseña la configuracion de la Bios, el video empieza exactamente donde empieza a modificar.
@@ -55,7 +68,7 @@ En ACPI/Delete, deshabilitar Delete CpuPmy Delete Cpu0Istnuevamente
 
 Guarde la configuración y reinicie.
 
-Y despues de esto viene algo muy importante tenemos que usar OPEN CORE PARCHER pero tenemos que usar un version modificada, esta nos ayudara a que el WiFi y Bluetooth funcionen correctamente si es que tienes la misma tarjeta de red o similar. 
+Y despues de esto viene algo muy importante tenemos que usar OPEN CORE PARCHER pero tenemos que usar un version modificada, esta en chino, no te asustes, es igual que la otra, esta nos ayudara a que el WiFi y Bluetooth funcionen correctamente si es que tienes la misma tarjeta de red o similar. 
 
 Usa esta version
 
@@ -68,11 +81,11 @@ Una vez temines con esto reinicia y listo.
 
 Si tienes una tarjeta de red diferente te recomendaria consultar el siguiente repositorio https://github.com/5T33Z0/Lenovo-T530-Hackintosh-OpenCore?tab=readme-ov-file
 
-aqui te ayuda a configurar, la cuestion es que necesitas tener una Bios modificada, la cual es relativamente sensillo hacerlo, sin miedo al exito.
+Este es un repositoria verdaderamente completo que te enseña a modificar cosa por cosa, pero si quieres simplemente montar un EFI y que funcione espesificamente en esta la Lenovo w530, este es el repositorio correcto, pero para agregar una tarjeta diferente necesitas tener una Bios modificada, la cual es relativamente sensillo hacerlo, ahi mismo te dan links para que logres hacerlo.
 Me parece que la ventaja de hacer esto es que es compatible con Airplay y las demas funciones inalambricas.
 
-Asi que debes de saber que esta configuracion con intel no es capaz de hacerlo, pero funcionara correctamente el wifi y dispositivos Bluetooth.
+Asi que debes de saber que esta configuracion con intel no es capaz de hacerlo, pero funcionara correctamente el WiFi y dispositivos Bluetooth.
 
-Esta carpeta EFI tiene modificaciones para que puedas usar un Disco duro externo en la antigua unidad de DVD, para esto necesitas comprar un adaptador, pero si te gusta algo sobre el Hackintosh creo que ya deberias saber sobre este adaptador.
+Mi EFI tiene modificaciones para que puedas usar un Disco duro externo en la antigua unidad de DVD, para esto necesitas comprar un adaptador, pero si te gusta algo sobre el Hackintosh creo que ya deberias saber sobre este adaptador.
 
 En general es estable y no deberias tener muchos problemas.
